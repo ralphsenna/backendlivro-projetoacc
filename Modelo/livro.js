@@ -84,7 +84,8 @@ export default class Livro
             plataforma: os.platform(),
             arquitetura: os.arch(),
             memoria_livre: os.freemem(),
-            usuario_local: os.homedir() 
+            usuario_local: os.homedir(),
+            data: new Date().getTime()
         });
     }
 }

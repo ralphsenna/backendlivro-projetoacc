@@ -3,11 +3,11 @@ import mysql from 'mysql2/promise';
 export default async function conectar()
 {
     const pool = mysql.createPool({
-        host: 'localhost',
+        host: 'sql10.freesqldatabase.com',
         port: 3306,
-        user: 'root',
-        password: '',
-        database: 'apibiblioteca',
+        user: 'sql10714155',
+        password: '4RR3x4MaT1',
+        database: 'sql10714155',
         waitForConnections: true,
         connectionLimit: 10,
         maxIdle: 10,
